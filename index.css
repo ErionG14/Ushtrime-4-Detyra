@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.headerContainer {
+    color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoAndCatalog {
+    display: flex;
+    align-items: center;
+}
+
+.logoAndCatalog img {
+    height: 45px;
+    margin-right: 10px;
+}
+
+.catalog {
+    font-size: 24px;
+    color: rgb(66, 182, 182);
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header li {
+    margin: 0 15px;
+
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.bgPhoto {
+    background-image: url('hero.jpg');
+    height: 300px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input[type="text"] {
+    height: 30px;
+    padding: 5px;
+    border: none;
+}
+
+button[type="submit"] {
+    height: 35px;
+    background-color: lightseagreen;
+    border: none;
+}
+
+.latestVideos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    padding: 10px;
+    color:lightseagreen;
+}
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rubrika {
+    flex: 0 1 calc(20% - 10px);
+    padding: 10px;
+    margin: 5px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.rubrika img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.views_date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.views_date p {
+    margin: 5px 0;
+}
+.pages {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
